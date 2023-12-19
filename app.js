@@ -5,7 +5,7 @@ const app = express();
 
 cron.schedule("0 20 16 19 12 2", function() {
 
-    const url = "https://discordapp.com/api/webhooks/1186776337650815036/P40EQZfPfu27nvwULlVLBMgpVyOjP7_eRRveOVI-HoGrvEpL8dp_IiDuThlfvGGwZpqQ"
+    const url = "LA URL DE TU WEBHOOK DE DISCORD"
 
     const texto = {
         "username": "Webhook",
